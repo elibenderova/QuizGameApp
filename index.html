@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn1.iconfinder.com/data/icons/arrows-elements-outline/128/ic_round_question-512.png"/>
+</head>
+<body>
+    <div class="introduction">
+        <h1>Welcome to Quiz Game!</h1>
+    </div>
+
+    <div class="quiz">
+        <form class="quiz-form">
+            <div class="question">
+                <h3>1. How to write an IF statement in JavaScript?</h3>
+                <label class="answear">
+                    <input type="radio" name="question1" value="A">
+                    if i = 5 then  
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question1" value="B">
+                    if (i == 5)
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question1" value="C">
+                    if i = 5
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question1" value="D">
+                    if i == 5 then
+                </label>
+            </div>
+
+            <div class="question">
+                <h3>2. How do you round the number 7.25, to the nearest integer?</h3>
+                <label class="answear">
+                    <input type="radio" name="question2" value="A">
+                    Math.rnd(7.25)
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question2" value="B">
+                    rnd(7.25)
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question2" value="C">
+                    round(7.25)
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question2" value="D">
+                    Math.round(7.25)
+                </label>
+            </div>
+
+            <div class="question">
+                <h3>3. Which event occurs when the user clicks on an HTML element?</h3>
+                <label class="answear">
+                    <input type="radio" name="question3" value="A">
+                    onclick
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question3" value="B">
+                    onchange
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question3" value="C">
+                    onmouseclick
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question3" value="D">
+                    onmouseover
+                </label>
+            </div>
+
+            <div class="question">
+                <h3>4. Which operator is used to assign a value to a variable?</h3>
+                <label class="answear">
+                    <input type="radio" name="question4" value="A">
+                    =
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question4" value="B">
+                    *
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question4" value="C">
+                    X
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question4" value="D">
+                    -
+                </label>
+            </div>
+
+            <div class="question">
+                <h3>5. How do you write "Hello World" in an alert box?</h3>
+                <label class="answear">
+                    <input type="radio" name="question5" value="A">
+                    msgBox("Hello World")
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question5" value="B">
+                    alertBox("Hello World")
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question5" value="C">
+                    alert("Hello World")
+                </label>
+                <label class="answear">
+                    <input type="radio" name="question5" value="D">
+                    msg("Hello World")
+                </label>
+            </div>
+
+            <div class="btn">
+                <input type="submit" class="button" value="SUBMIT">
+            </div>
+        </form>
+    </div>
+    
+    <div class="result none">
+        <p>Your result is: <span>0</span>/5</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
